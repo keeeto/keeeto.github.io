@@ -5,8 +5,11 @@ title: About Keith Butler
 
 <div class="post">
 	<h1 class="pageTitle">About Keith Butler</h1>
-	<img src="{{ '/assets/images/photoferroics-small.jpeg' | prepend: site.baseurl }}" alt="">
+
 	<p class="intro">My name is Keith Butler. I work as a staff scientist in the ISIS facility at Rutherford Appleton Laboratories. My interest is in helping to interpret the data collected in the complex experiments being done at ISIS using neutrons and muons. Neutrons and muons can be used to explore structure, dynamics, defects and many other properties of materials with increasingly high resolution. These experiments are at the cutting edge of research across the materials community, from alloys in aerospace, to protein structure, to next generation catalysts, photovoltaics and superconductors, neutrons and muons are leading the way in so many scientific fields. My goal at ISIS, as part of the <a href="https://www.mantidproject.org/Main_Page">Mantid Project</a> is to help software developers and instrument users to connect more efficiently and facilitate great science.</p>
+	
+	<img src="{{ '/assets/images/photoferroics-small.jpeg' | prepend: site.baseurl }}" alt="">
+	
 	<h2>Background</h2>
 	I have a background in using computational techniques to understand and design new materials. During the past few years I have been busy developing and applying tools to accelerate materials discovery. I make these tools avialable under open source licenses on <a href='https://github.com/keeeto/'>my github page.</a>
 	
