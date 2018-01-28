@@ -1,24 +1,16 @@
 ---
 layout: default
-title: About Long Haul
+title: About Keith Butler
 ---
 
 <div class="post">
-	<h1 class="pageTitle">About Long Haul</h1>
-	<img src="{{ '/assets/img/touring.jpg' | prepend: site.baseurl }}" alt="">
-	<p class="intro">Long Haul is a minimal, long form <a href="http://jekyllrb.com">Jekyll</a> Theme. It can be used as is or customized to your hearts desire.</p>
-	<p>Long Haul was created in honor of all the hard working touring bicycles that have traversed the globe time and time again. Take it for a spin.</p>
-	<h2>Features</h2>
-	<ul>
-		<li>Built with SASS + GULP + BROWSERSYNC + AUTOPREFIXER</li>
-  		<li>SVG Social Icons from <a href="http://customizr.net/icons/">Customizr</a></li>
-  		<li><a href="http://responsive-nav.com/">Responsive Nav Menu</a></li>
-  		<li><a href="https://github.com/snaptortoise/jekyll-rss-feeds">XML Feed for RSS Readers</a></li>
-  		<li>Contact Form via <a href="http://formspree.io/">Formspree</a></li>
-      <li>5 Post Loop with excerpt on Home Page</li>
-  		<li>Previous / Next Post Navigation</li>
-      <li>Estimated Reading Time for posts</li>
-  		<li><a href="https://github.com/adobe-webplatform/dropcap.js">Drop Cap</a> on posts</li>
-  		<li><a href="http://typecast.com/blog/a-more-modern-scale-for-web-typography">A Better Type Scale</a></li>
-  	</ul>
-</div>
+	<h1 class="pageTitle">About Keith Butler</h1>
+	<img src="{{ '/assets/images/grotesque.jpeg' | prepend: site.baseurl }}" alt="">
+	<p class="intro">My name is Keith Butler. I work as a staff scientist in the ISIS facility at Rutherford Appleton Laboratories. My interest is in helping to interpret the data collected in the complex experiments being done at ISIS using neutrons and muons. Neutrons and muons can be used to explore structure, dynamics, defects and many other properties of materials with increasingly high resolution. These experiments are at the cutting edge of research across the materials community, from alloys in aerospace, to protein structure, to next generation catalysts, photovoltaics and superconductors, neutrons and muons are leading the way in so many scientific fields. My goal at ISIS, as part of the <a href="https://www.mantidproject.org/Main_Page">Mantid Project</a> is to help software developers and instrument users to connect more efficiently and facilitate great science.</p>
+	<h2>Background</h2>
+	I have a background in using computational techniques to understand and design new materials. During the past few years I have been busy developing and applying tools to accelerate materials discovery. 
+	
+	<h3>SMACT</h3>
+	<a href="http://smact.readthedocs.io/en/latest/introduction.html"> SMACT </a>stands for Semiconducting Materials from Analogy and Chemical Theory. It is a set of tools to use simple chemical descriptors, statistical models and high-throughput workflows to discover new materials. SMACT is written in simple modular Python and allows users to develop their own models and workflows using the basic machinery provided. In recent years we have had our first publications exploring the vast hyperspace of hitherto un-reported materials. I wrote a bit more about these in another post.
+	<h3>Macordensity</h3>
+	</div>
