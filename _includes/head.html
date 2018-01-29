@@ -73,10 +73,10 @@
     <!-- Modernizr -->
     <script src="{{ "/assets/js/modernizr.custom.15390.js" | prepend: site.baseurl }}" type="text/javascript"></script>
 
+    {% if site.google_analytics %} {% include google_analytics.html %} {% endif %}
+</head>
+
     <!-- MathJax -->
     <script type="text/javascript"
         src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
     </script>
-
-    {% if site.google_analytics %} {% include google_analytics.html %} {% endif %}
-</head>
