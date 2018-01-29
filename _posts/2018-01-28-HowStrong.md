@@ -5,7 +5,7 @@ mathjax: true
 date:   2018-01-28
 ---
 
-#### I explore how our new work sheds light on how hydrogen bonding controls the properties of hybrid organic-inorganic perovskite materials. The full paper was published late 2017 in The Journal of Physical Chemistry Letters, it's free open access and you can find it [here](http://pubs.acs.org/doi/abs/10.1021/acs.jpclett.b03106).
+##### *I explore how our new work sheds light on how hydrogen bonding controls the properties of hybrid organic-inorganic perovskite materials. The full paper was published late 2017 in The Journal of Physical Chemistry Letters, it's free open access and you can find it [here](http://pubs.acs.org/doi/abs/10.1021/acs.jpclett.b03106).*
 
 A lot of the work that I have been doing in recent years concerns hybrid materials, which combine building blocks from the traditionally separate fields of organic and inorganic chemistry. This is a very interesting area to work in as it involves a confluence of ideas, methods and languages, making it fertile territory for new advances. I think that our recent work on hydrogen bonding strength in hybrid perovskite materials is a good example of this.
 
