@@ -12,7 +12,7 @@ A lot of the work that I have been doing in recent years concerns hybrid materia
 Perovskites are a good place to start as they are almost the archetype of classic design principles in inorganic solid state chemistry. The rules of Goldschmidt are amongst the most celebrated composition structure relationships, that is a way to relate the elements in a chemical formula to the 3D arrangement of the atoms in a solid. Goldschmidt built a beautifully simple geometric representation of the perovskite lattice and essentially represented the problem as one of packing spheres of different sizes (various elements). See the Figure below.
 
 <figure>
-	<img src="{{ '/assets/images/goldschmidt.png' | prepend: site.baseurl }}" alt=""> 
+	<img src="{{ '/assets/images/goldschmidt.png' | prepend: site.baseurl }}" alt="" width="500"> 
 	<figcaption>Fig1. The Goldschmidt tolerance factor.</figcaption>
 </figure>
 
