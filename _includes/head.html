@@ -72,6 +72,9 @@
 
     <!-- Modernizr -->
     <script src="{{ "/assets/js/modernizr.custom.15390.js" | prepend: site.baseurl }}" type="text/javascript"></script>
+    {% if page.use_math %}
+      {% include mathjax_support %}
+    {% endif %}
 
     {% if site.google_analytics %} {% include google_analytics.html %} {% endif %}
 </head>
