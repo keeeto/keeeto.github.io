@@ -25,7 +25,7 @@ Now it is clear that hydrogen bonding is going to play a big role in these hybri
 This is where our new approach comes in. Building on the approach outlined above, we now introduce a second system, with an inorganic ion (of equal charge) replacing the organic molecule. We then calculate the energy difference as above, and also the identical energy difference of the fully inorganic system. Since the inorganic system has no hydrogen bonds, but does have the ionic interactions, the difference in the differences is now the hydrogen bond strength. The scheme is represented in the figure below.
 
 <figure>
-	<img src="{{ '/assets/images/hbond-scheme.jpeg' | prepend: site.baseurl }}" alt=""> 
+	<img src="{{ '/assets/images/hbond-scheme.jpeg' | prepend: site.baseurl }}" alt="" width="500"> 
 	<figcaption>Fig1. The Goldschmidt tolerance factor.</figcaption>
 </figure>
 
