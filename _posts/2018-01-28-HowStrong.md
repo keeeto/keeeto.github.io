@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Hydrogen bonding in hybrids"
-mathjax : true
+mathjax: true
 date:   2018-01-28
 description: We recently developed a new method to estimate hydrogen bonding strength in hybrid organic-inorganic material. In this post I have a quick look at the problem and how we approached it.  <a href="http://pubs.acs.org/doi/abs/10.1021/acs.jpclett.7b03106"> The full paper </a>  was published late 2017 in The Journal of Physical Chemistry Letters, it's free open access.
 ---
