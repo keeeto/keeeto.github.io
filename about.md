@@ -20,7 +20,7 @@ title: About Keith Butler
 	
 	<img src="{{ '/assets/images/smact-toc.jpeg' | prepend: site.baseurl }}" alt="" width="200"> 
 	
-<p align=right>	<a href="http://smact.readthedocs.io/en/latest/introduction.html"> SMACT </a>stands for Semiconducting Materials from Analogy and Chemical Theory. It is a set of tools to use simple chemical descriptors, statistical models and high-throughput workflows to discover new materials. SMACT is written in simple modular Python and allows users to develop their own models and workflows using the basic machinery provided. In recent years we have had our first publications exploring the vast hyperspace of hitherto un-reported materials. I wrote a bit more about these in another post<\p>.
+<p align=right>	<a href="http://smact.readthedocs.io/en/latest/introduction.html"> SMACT </a>stands for Semiconducting Materials from Analogy and Chemical Theory. It is a set of tools to use simple chemical descriptors, statistical models and high-throughput workflows to discover new materials. SMACT is written in simple modular Python and allows users to develop their own models and workflows using the basic machinery provided. In recent years we have had our first publications exploring the vast hyperspace of hitherto un-reported materials. I wrote a bit more about these in another post </p>.
 	
 	<h3>Macordensity</h3>
 	
