@@ -16,6 +16,8 @@ navigation:
    url: /index.html
  - title: About
    url: /about
+ - title: Publcations
+   url: https://scholar.google.com/citations?user=eruLmgUAAAAJ&hl=en
  - title: Contact
    url: /contact
 
