@@ -14,7 +14,14 @@ title: About Keith Butler
 </figure>
 	
 	<h2>Background</h2>
-	I have a background in using computational techniques to understand and design new materials. During the past few years I have been busy developing and applying tools to accelerate materials discovery. I make these tools avialable under open source licenses on <a href='https://github.com/keeeto/'>my github page.</a>
+	I have a background in using computational techniques to understand and design new materials. Most of my work in the past few years has centred on photovoltaics (materials for generating electricity from sunlight) and hybrid materials (materials with organic and inorganic components), and the intersection of the two fields. 
+	
+	I was lucky enough to be working in <a href="http://wmd-group.github.io/">Aron Walsh's group</a> at the start of the new field of hybrid perovskite solar cells. It was a really exciting time and we learnt a lot about things like ferroelectric photovoltaics, see Figure 1 and our paper  <a href="http://pubs.rsc.org/-/content/articlehtml/2015/ee/c4ee03523b">'Ferroelectric materials for solar energy conversion: photoferroics revisited')</a>, and the importance of vibrational entropy for phase changes in hybrids <a href="http://pubs.rsc.org/-/content/articlehtml/2016/sc/c6sc02199a">Organised chaos: entropy in hybrid inorganic–organic systems and other materials</a>. This has led me to my latest challenge, which is to help use software to understand the fundamental structure and dynamics of materials by helping to interpret neutron experiments at the <a href=https://www.isis.stfc.ac.uk/Pages/home.aspx>UK's ISIS facility</a>.
+	
+	In <a href="https://keeeto.github.io/">my blog </a> I'll try to regularly find some time to write about the subjects that I am researching, or that are simply interesting me and that I feel I have some kind of worthwhile opinion about.
+	
+
+  <h2>Software</h2>
 	
 	<h3>SMACT</h3>
 	
@@ -27,5 +34,5 @@ title: About Keith Butler
 	
 	<img align="right" hspace="20" src="{{ 'https://github.com/keeeto/BandAlignmentBootcamp/raw/master/hybrid_bands.jpeg' | prepend: site.baseurl }}" alt="" width="200"> 
 	
-	<a href="https://github.com/WMD-group/MacroDensity">MacroDensity</a> s a set of tools for analysing and maipulating electron densities obtained from qunatum mechanical calculations of materials. This is useful for finding electron binding energies, aligning bands, calculating defect levels and many other properties. I explain how to use MacroDensity in a <a href="https://github.com/WMD-group/MacroDensity/tree/master/tutorials"> series of tutorials</a>, available as iPython notebooks. 
+	<a href="https://github.com/WMD-group/MacroDensity">MacroDensity</a> s a set of tools for analysing and manipulating electron densities obtained from quantum mechanical calculations of materials. This is useful for finding electron binding energies, aligning bands, calculating defect levels and many other properties. I explain how to use MacroDensity in a <a href="https://github.com/WMD-group/MacroDensity/tree/master/tutorials"> series of tutorials</a>, available as iPython notebooks. 
 	</div>
