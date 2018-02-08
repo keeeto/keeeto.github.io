@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About Keith Butler
+title: About Me
 ---
 
 <div class="post">
