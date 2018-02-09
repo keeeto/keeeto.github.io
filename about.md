@@ -41,9 +41,10 @@ title: About Me
 	</div>
 	
 <h2>Food</h2>
+<img align="right" hspace="20" src="{{ 'http://fodblog.github.io/assets/pictures/caprese_omlette.jpg' | prepend: site.baseurl }}" alt="" width="300">
 
 In my spare time I do a lot of exploring food, eating and making. For several years before my science jobs I worked in kitchens, ranging from stacking the back of hot food <a href="https://en.wikipedia.org/wiki/FEBO">"Febo" style</a> vending machines, to the five star <a href="http://cafeamericain.nl/">Hotel Americain</a>. 
 
-<img align="left" hspace="20" src="{{ 'http://fodblog.github.io/assets/pictures/baked-egg-kale.jpg' | prepend: site.baseurl }}" alt="" width="200">
+<img align="left" hspace="20" src="{{ 'http://fodblog.github.io/assets/pictures/baked-egg-kale.jpg' | prepend: site.baseurl }}" alt="" width="300">
 
 I'm currently pretty obsessed with pickling and fermenting. I am working on my pickled eggs and kimchi. I write a regular food blog, which is also focussed on Fodmap-frinedly recipes. Fodmap means that the recipes are suitable for people with IBS, you can find more <a href="https://fodblog.github.io/">on the FodBlog</a>. 
