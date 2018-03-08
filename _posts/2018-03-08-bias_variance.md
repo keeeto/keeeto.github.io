@@ -17,11 +17,18 @@ If we have overfitted, this means that we have too many parameters to be justifi
 
 In order to find the optimal complexity we need to carefully train the model and then **validate** it against data that was unseen in the training set. The performance of the model against the validation set will initially improve, but eventually suffer and dis-improve. The inflection point represents the optimal model. To illustrate this process below I have the Python code required to build a model.
 
+#### A worked example
+
+<figure>
+	<img src="{{ '/assets/images/bias-var.png' | prepend: site.baseurl }}" alt="" width="800"> 
+	<figcaption>Fig1. Errors that arise in machine learning approaches, both during the training of a new model (blue line) and the application of a built model (red line). A simple model may suffer from high bias (underfitting), while a complex model may suffer from high variance (overfitting) leading to a bias-variance trade-off. </figcaption>
+</figure>
+
 For training data we are going to use the Titanic data set, which is available to download from [my GitHub page](https://github.com/keeeto/keeeto.github.io/tree/master/datasets).
 
 We start by importing the modules required. Aside from standard Python packages, you will also need to install `pandas` (for reading data) and `sklearn` (provides statistical models). Both of these are available to install *via* `pip`.
 
-```
+```python
 import pandas as pd
 import numpy as np
 
@@ -35,7 +42,7 @@ from sklearn.model_selection import cross_val_score, learning_curve, validation_
 
 The next step sets up plots to look the way I like them, you can ignore it or use it.
 
-```
+```python
 import matplotlib as mpl
 # Default parameters for matplotlib plots
 mpl.rcParams['xtick.labelsize'] = 22
@@ -57,7 +64,7 @@ mpl.rcParams['axes.labelsize'] = 22
 
 Now we read in the data, and combine training and test sets into one. We also set up or training dataframe `X`.
 
-```
+```python
 df_train = pd.read_csv('train.csv')
 df_test = pd.read_csv('test.csv')
 df_comb = df_train.append(df_test)
@@ -67,7 +74,7 @@ X = pd.DataFrame()
 
 Now we set up some functions to encode the data in the set into a machine useable format. In this case we turn gender into a numerical function and set family sizes so that they can be 1, 2, 3 or 4. All families larger than 3 are treated as 4; this reduces the spread in the family size variable and increases its significance.
 
-```
+```python
 def encode_sex(x):
     return 1 if x == 'female' else 0
 
@@ -82,7 +89,7 @@ X['FamilySize'] = df_comb.apply(family_size, axis=1)
 
 We set up new dataframes containing fares and ages and add them to the dataframe `X`, these will be used later.
 
-```
+```python
 fare_median = df_train.groupby(['Sex', 'Pclass']).Fare.median()
 fare_median.name = 'FareMedian'
 
@@ -98,7 +105,7 @@ X['Age'] = df_comb.Age.fillna(join(df_comb, age_mean).AgeMean)
 
 Next we discritize the data, that is we separate up groups of passengers by the fare that they paid and their age.
 
-```
+```python
 def quantiles(series, num):
     return pd.qcut(series, num, retbins=True)[1]
 
@@ -111,7 +118,7 @@ X['Age'] = discretize(X.Age, quantiles(df_comb.Age, 10))
 
 We split the data again into training and test sets, on the same boundary as at the start.
 
-```
+```python
 X_train = X.iloc[:df_train.shape[0]]
 X_test = X.iloc[df_train.shape[0]:]
 
@@ -122,7 +129,7 @@ y_train = df_train.Survived
 
 We now set up our Random Forest model. We also specify that we want to perform 7-fold cross validation for fitting the model.
 
-```
+```python
 clf_1 = RandomForestClassifier(n_estimators=100, bootstrap=True, random_state=0)
 clf_1.fit(X_train, y_train)
 # Number of folds for cross validation
@@ -133,7 +140,7 @@ num_folds = 7
 
 Utility to plot training and validation or test scores 
 
-```
+```python
 def plot_curve(ticks, train_scores, test_scores):
     train_scores_mean = -1 * np.mean(train_scores, axis=1)
     train_scores_std = -1 * np.std(train_scores, axis=1)
@@ -156,7 +163,7 @@ def plot_curve(ticks, train_scores, test_scores):
 
 And a utility to plot the validation curve of a classifier for training set `X` and target `y`. The parameter and its value range can be specified with `param_name` and `param_range`, respectively.
 
-```
+```python
 def plot_validation_curve(clf, X, y, param_name, param_range, scoring='roc_auc'):
     plt.xkcd()
     ax = plot_curve(param_range, *validation_curve(clf, X, y, cv=num_folds, 
@@ -178,14 +185,10 @@ def plot_validation_curve(clf, X, y, param_name, param_range, scoring='roc_auc')
 ```
 We run the plotting for between 2 and 13 parameters, note that the optimal is between 7 and 8 parameters, I already included this line in the above plotting function.
 
-```
+```python
 plot_validation_curve(clf_1, X_train, y_train, param_name='max_depth', param_range=range(2,13))
 
 ```
 
-<figure>
-	<img src="{{ '/assets/images/bias-var.png' | prepend: site.baseurl }}" alt="" width="800"> 
-	<figcaption>Fig1. Errors that arise in machine learning approaches, both during the training of a new model (blue line) and the application of a built model (red line). A simple model may suffer from high bias (underfitting), while a complex model may suffer from high variance (overfitting) leading to a bias-variance trade-off. </figcaption>
-</figure>
 
 
