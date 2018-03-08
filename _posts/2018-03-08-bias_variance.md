@@ -184,7 +184,7 @@ plot_validation_curve(clf_1, X_train, y_train, param_name='max_depth', param_ran
 ```
 
 <figure>
-	<img src="{{ '/assets/images/bias-var.png' | prepend: site.baseurl }}" alt="" width="300"> 
+	<img src="{{ '/assets/images/bias-var.png' | prepend: site.baseurl }}" alt="" width="800"> 
 	<figcaption>Fig1. Errors that arise in machine learning approaches, both during the training of a new model (blue line) and the application of a built model (red line). A simple model may suffer from high bias (underfitting), while a complex model may suffer from high variance (overfitting) leading to a bias-variance trade-off. </figcaption>
 </figure>
 
