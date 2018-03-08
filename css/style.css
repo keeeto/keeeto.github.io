@@ -416,7 +416,7 @@ body {
 
 @media (min-width: 43.75em) {
   body {
-    font-size: 1em;
+    font-size: 2em;
     /* equivalent to 16px */
     line-height: 1.375;
     /* equivalent to 22px */ } }
