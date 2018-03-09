@@ -13,16 +13,26 @@ Bias and variance are two terms you need to get used to if constructing statisti
 
 If we have an underfitted model, this means that we do not have enough parameters to capture the trends in the underlying system. Imagine for example that we have data that is parabolic in nature, but we try to fit this with a linear function, with just one parameter. Because the function does not have the required complexity to fit the data (two parameters), we end up with a poor predictor. In this case the model will have high **bias**. This means that we will get consistent answers, but consistently wrong answers. 
 
+<figure>
+	<img src="{{ '/assets/images/Underfitting.png' | prepend: site.baseurl }}" alt="" width="400"> 
+	<figcaption>An example of underfitting. The model function does not have enough complexity (parameters) to fit the true function correctly. Code adapted from the <a href ="http://scikit-learn.org/stable/auto_examples/model_selection/plot_underfitting_overfitting.html">scikit-learn website </a>. </figcaption>
+</figure>
+
 If we have overfitted, this means that we have too many parameters to be justified by the actual underlying data and therefore build an overly complex model. Again imagine that the true system is a parabola, but we used a higher order polynomial to fit to it.  Because we have natural noise in the data used to fit (deviations from the perfect parabola), the overly complex model treats these fluctuations and noise as if they were intrinsic properties of the system and attempts to fit to them. The result is a model that has high **variance**. This means that we will not get consistent predictions of future results. For a striking and devastating example of the dangers of overfitting, see [this excellent article](https://ml.berkeley.edu/blog/2017/07/13/tutorial-4/) which includes a section on the Fukushima disaster.
+
+<figure>
+	<img src="{{ '/assets/images/Overfitting.png' | prepend: site.baseurl }}" alt="" width="400"> 
+	<figcaption>An example of overfitting. The model function has too much complexity (parameters) to fit the true function correctly. Code adapted from the <a href ="http://    scikit-learn.org/stable/auto_examples/model_selection/plot_underfitting_overfitting.html">scikit-learn website </a>. </figcaption>
+</figure>
 
 In order to find the optimal complexity we need to carefully train the model and then **validate** it against data that was unseen in the training set. The performance of the model against the validation set will initially improve, but eventually suffer and dis-improve. The inflection point represents the optimal model. To illustrate this process below I have the Python code required to build a model.
 
-#### A worked example
-
 <figure>
-	<img src="{{ '/assets/images/bias-var.png' | prepend: site.baseurl }}" alt="" width="800"> 
-	<figcaption>Fig1. Errors that arise in machine learning approaches, both during the training of a new model (blue line) and the application of a built model (red line). A simple model may suffer from high bias (underfitting), while a complex model may suffer from high variance (overfitting) leading to a bias-variance trade-off. </figcaption>
+	<img src="{{ '/assets/images/Fitting.png' | prepend: site.baseurl }}" alt="" width="400"> 
+	<figcaption>An example of a well chosen model. The model function the right complexity (parameters) to fit the true function correctly. Code adapted from the <a href ="http://    scikit-learn.org/stable/auto_examples/model_selection/plot_underfitting_overfitting.html">scikit-learn website </a>. </figcaption>
 </figure>
+
+#### A worked example
 
 For training data we are going to use the Titanic data set, which is available to download from [my GitHub page](https://github.com/keeeto/keeeto.github.io/tree/master/datasets).
 
@@ -189,6 +199,11 @@ We run the plotting for between 2 and 13 parameters, note that the optimal is be
 plot_validation_curve(clf_1, X_train, y_train, param_name='max_depth', param_range=range(2,13))
 
 ```
+
+<figure>
+	<img src="{{ '/assets/images/bias-var.png' | prepend: site.baseurl }}" alt="" width="800"> 
+	<figcaption>Fig1. Errors that arise in machine learning approaches, both during the training of a new model (blue line) and the application of a built model (red line). A simple model may suffer from high bias (underfitting), while a complex model may suffer from high variance (overfitting) leading to a bias-variance trade-off. </figcaption>
+</figure>
 
 
 
