@@ -32,8 +32,14 @@ This takes all the pain out of installing new plugins.
 * `vundle` seems like a good option.
 * [A very thorough guide](https://www.digitalocean.com/community/tutorials/how-to-use-vundle-to-manage-vim-plugins-on-a-linux-vps) on how to set up `vundle`.
 * A quick-start guide for the impatient:
-	* Clone the repo `git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle`.
-	* Edit your `~/.vimrc`:
+	* Clone the repo:
+	
+```bash
+git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+```
+
+* Edit your `~/.vimrc`:
+
 
 ```bash
 """" START Vundle Configuration
