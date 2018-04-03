@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/119265996.svg)](https://zenodo.org/badge/latestdoi/119265996)
 ![preview Long Haul](/preview.jpg)
 
 Long Haul is a minimal jekyll theme built with SASS / GULP / BROWSERSYNC / AUTOPREFIXER and focuses on long form blog posts. It is meant to be used as a starting point for a jekyll blog/website.
