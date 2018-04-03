@@ -23,7 +23,7 @@ title: About Me
 
   <h2>Software</h2>
   
-  I have a background in using computational techniques to understand and design new materials. During the past few years I have been busy developing and applying tools to accelerate materials discovery. I make these tools available under open source licenses on <a href='https://github.com/keeeto/'>my GitHub page.</a>
+ During the past few years I have been busy developing and applying tools to accelerate materials discovery. I make these tools available under open source licenses on <a href='https://github.com/keeeto/'>my GitHub page.</a>
 
 	
 	<h3>SMACT</h3>
