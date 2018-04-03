@@ -70,8 +70,6 @@ This lets you see where you are in the filesystem. It also lets you browse throu
 * I suggest enabling the mouse, add `set mouse=r` to `~/.vimrc`.
 * Note, you can use `ctrl`+`w` to toggle between the tabs.
 * To open up the tree from `vim`, just type `:NERDTree`.
-* Now use the mouse to navigate the tree, you can double-click on the file you want to view.
-* You can then mouse click between the different segments of the screen.
 * Standard `vim` commands can close the tree `:q`.
 
 ## A Tagbar
