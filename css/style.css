@@ -949,7 +949,7 @@ POST NAV STYLING
       -webkit-transform: translateY(-50%);
       transform: translateY(-50%);
       width: 100%;
-      line-height: 1.4; }
+      line-height: 0.74; }
     .postNav .prev.image, .postNav .next.image {
       text-decoration: none;
       color: white;
