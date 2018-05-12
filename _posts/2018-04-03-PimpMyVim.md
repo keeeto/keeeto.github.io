@@ -2,6 +2,7 @@
 layout: post
 title:  "Supercharging VIM"
 date:   2018-04-03
+tags: vim code
 description: A quickstart description of how to set up VIM for code development.
 ---
 

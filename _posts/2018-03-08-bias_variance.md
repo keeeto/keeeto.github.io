@@ -2,6 +2,7 @@
 layout: post
 title:  "Example of overfitting and underfitting in machine learning"
 date:   2018-03-08
+tags: machine_learning research
 description: A Python based example to demonstrate a model that overfits or underfits depending on complexity.
 ---
 
