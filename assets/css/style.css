@@ -39,6 +39,8 @@ hr {
 }
 
 pre {
+    margin-top: -2.00em;
+    margin-bottom: -2.00em;
     font-family: "Courier 10 Pitch", Courier, monospace;
     font-size: 65%;
     line-height: 140%;
@@ -46,12 +48,13 @@ pre {
     white-space: pre-wrap;
     white-space: -moz-pre-wrap;
     white-space: -o-pre-wrap;
+    width: 800px;
 }
 
 code {
     font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
     font-size: 65%;
-    line-height: 140%;
+    line-height: 100%;
     white-space: pre;
     white-space: pre-wrap;
     white-space: -moz-pre-wrap;
