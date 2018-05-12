@@ -728,7 +728,8 @@ video {
 }
 
 a {
-    color: #2e8b57
+    color: #901E05;
+    text-decoration: none;
 }
 
 a:hover {
