@@ -25,7 +25,7 @@ It's a bit niche, but it all starts with David Scanlon, he told us that thallium
 doped indium oxide was the next big transparent conducting oxide (TCO). So, I had 
 to start working with thallium oxide and as a result I have a soft spot for 
 Thallium and osmium oxide. They are so poisonous and horrible, nobody really wants 
-to work with them, which means they are really unexplored. As a result, these are 
+to work with them, which means they are really unexplored. As a result, they are A
 these glorious things that are so useless in a way - well we don't even really know 
 what they do. It's really exciting because there is this feeling and idea of 
 actually discovering something new - because nobody else would dare. Now my top 
@@ -71,7 +71,7 @@ structure, but then you also tend to get a lot of I-V curves!
 
 Here I go the other way. Journal of Electron Spectroscopy and Related Phenomena. I 
 don't even know if it has an impact factor, I never checked. But from the 
-spectroscopers point of view, it has some brilliant papers in it. The papers tend 
+spectroscoper's point of view, it has some brilliant papers in it. The papers tend 
 to be beautifully written and there's clearly a certain culture within the 
 community that you can tell from reading these papers. I found some real nuggets of 
 information in there.
@@ -96,10 +96,10 @@ another journal I love.
 
 ### Who's papers always make you read deeper?
 
-There is one person, Nicola Spaldin. I had to on very short notice jump into 
+There is one person, Nicola Spaldin. I had to - on very short notice - jump into 
 teaching dielectrics and magnetism to first years at Imperial and write a 10 
 lecture course. I came across some of her papers on the modern theory of 
-polarisation and, the way she writes it I just makes you want to know more and to 
+polarisation and the way she writes it I just makes you want to know more and to 
 go further. I give my students links to her papers and its surprising how many of 
 them actually read them and come back to me to talk about them. It's so accessible 
 and yet it goes so deep. They have this special touch no matter if you are a first 
