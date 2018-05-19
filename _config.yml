@@ -20,8 +20,8 @@ navigation:
    url: /about
  - title: Publications
    url: https://scholar.google.com/citations?user=eruLmgUAAAAJ&hl=en
- - title: Contact
-   url: /contact
+ - title: Materials Hipster
+   url: /tag/materials_hipster
 
 social:
    github: keeeto
