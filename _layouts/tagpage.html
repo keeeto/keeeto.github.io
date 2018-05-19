@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<div class="post">
+<h1>{{ page.tag }}</h1>
+    {% if page.tag == 'materials_hipster' %}
+
+    Materials Hipster is a series of regular interviews from the bleeding edge of
+materials' research. A hand chosen group of researchers answer single origin, small
+batch questions, providing artisanal answers to keep you two steps ahead of the
+next big thing.
+
+{% endif %}
+<ul class="posts noList">
+{% for post in site.tags[page.tag] %}
+      <li>
+        <span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
+        <h3><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+        <p>{% if post.description %}{{ post.description }}{% else %}{{ post.excerpt | strip_html }}{% endif %}</p>
+      </li>
+{% endfor %}
+</ul>
+</div>
+<hr>
