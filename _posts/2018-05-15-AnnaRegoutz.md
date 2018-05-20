@@ -22,10 +22,10 @@ width="450">
 ### What's your all time favourite material?
 
 It's a bit niche, but it all starts with David Scanlon, he told us that thallium 
-doped indium oxide was the next big transparent conducting oxide (TCO). So, I had 
+doped indium oxide was the next big transparent conducting oxide. So, I had 
 to start working with thallium oxide and as a result I have a soft spot for 
-Thallium and osmium oxide. They are so poisonous and horrible, nobody really wants 
-to work with them, which means they are really unexplored. As a result, they are A
+thallium and osmium oxide. They are so poisonous and horrible, nobody really wants 
+to work with them, which means they are really unexplored. As a result, they are 
 these glorious things that are so useless in a way - well we don't even really know 
 what they do. It's really exciting because there is this feeling and idea of 
 actually discovering something new - because nobody else would dare. Now my top 
@@ -99,10 +99,10 @@ another journal I love.
 There is one person, Nicola Spaldin. I had to - on very short notice - jump into 
 teaching dielectrics and magnetism to first years at Imperial and write a 10 
 lecture course. I came across some of her papers on the modern theory of 
-polarisation and the way she writes it I just makes you want to know more and to 
-go further. I give my students links to her papers and its surprising how many of 
+polarisation and the way she writes it just makes you want to know more and to 
+go further. I give my students links to her papers and it's surprising how many of 
 them actually read them and come back to me to talk about them. It's so accessible 
-and yet it goes so deep. They have this special touch no matter if you are a first 
+and yet it goes so deep. They have this special touch, no matter if you are a first 
 year undergrad or an established researcher, they get you interested.
 
 Anna's choice cuts from Nicola Spaldin:
