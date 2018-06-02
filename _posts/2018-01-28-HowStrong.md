@@ -2,7 +2,7 @@
 layout: post
 title:  "Hydrogen bonding in hybrids"
 mathjax: true
-tags: dft hybrids research
+tags: dft hybrid_halides research hybrids
 date:   2018-01-28
 ---
 
