@@ -6,24 +6,20 @@ title: About Me
 <div class="post">
 	<h1 class="pageTitle">About Me</h1>
 
-	<p class="intro">My name is Keith Butler. I work as a staff scientist in the ISIS facility at Rutherford Appleton Laboratories. My interest is in helping to interpret the data collected in the complex experiments being done at ISIS using neutrons and muons. Neutrons and muons can be used to explore structure, dynamics, defects and many other properties of materials with increasingly high resolution. These experiments are at the cutting edge of research across the materials community, from alloys in aerospace, to protein structure, to next generation catalysts, photovoltaics and superconductors. My role at ISIS, as part of the <a href="https://www.mantidproject.org/Main_Page">Mantid Project</a> is to help software developers and instrument users to connect more efficiently and facilitate leading research.</p>
+	<p class="intro">I work as a data scientist leading the materials research in the SciML team based at Rutherford Appleton Laboratory. SciML is a team in the Scientific Computing Division and we work with the large STFC facilities (Diamond, ISIS Neutron and Muon Source and Central Laser Facility for example) to use machine learning to push the boundaries of fundamantal science.</p>
 	
 <figure>
 	<img src="{{ '/assets/images/photoferroics-small.png' | prepend: site.baseurl }}" alt="" width="700" > 
 	<figcaption>Fig1. Mechanisms for the ferroelectric photovoltaic effect, taken from the article "Ferroelectric materials for solar energy conversion: photoferroics revisited".</figcaption>
 </figure>
 	
-	<h2>Background</h2>
-	I have a background in using computational techniques to understand and design new materials. Most of my work in the past few years has centred on photovoltaics (materials for generating electricity from sunlight) and hybrid materials (materials with organic and inorganic components), and the intersection of the two fields. 
-	<br>
-	I was lucky enough to be working in <a href="http://wmd-group.github.io/">Aron Walsh's group</a> at the start of the new field of hybrid perovskite solar cells. These materials have revolutionised research in solar energy, offering the possibility of low-cost, highly efficient solar panels, that could change the renewable energy landscape <a href="https://www.youtube.com/watch?v=2ccar3uqWsw">here's a TED talk on the topic</a>. It was a really exciting time and we learnt a lot about things like ferroelectric photovoltaics, see Figure 1 and our paper  <a href="http://pubs.rsc.org/-/content/articlehtml/2015/ee/c4ee03523b">'Ferroelectric materials for solar energy conversion: photoferroics revisited')</a>, and the importance of vibrational entropy for phase changes in hybrids (<a href="http://pubs.rsc.org/-/content/articlehtml/2016/sc/c6sc02199a">Organised chaos: entropy in hybrid inorganic–organic systems and other materials</a>). This has led me to my latest challenge, which is to help use software to understand the fundamental structure and dynamics of materials by helping to interpret neutron experiments at the <a href='https://www.isis.stfc.ac.uk/Pages/home.aspx'>UK's ISIS facility</a>.
-	<br>
-	In <a href="https://keeeto.github.io/">my blog </a> I'll try to regularly find some time to write about the subjects that I am researching, or that are simply interesting me and that I feel I have some kind of worthwhile opinion about.
-	
+  <h2>Background</h2>
+  
+  I have a background in computational materials sceince. I have worked for more than 10 years using atomistic models to design new materials and to help with analysis of experimental data. I have experience using high performance computing for simulations using density functional theory and classical models. I also develop machine learning models using Scikit-learn, Keras and TensorFlow.
 
   <h2>Software</h2>
   
- During the past few years I have been busy developing and applying tools to accelerate materials discovery. I make these tools available under open source licenses on <a href='https://github.com/keeeto/'>my GitHub page.</a>
+ During the past few years I have been busy developing and applying tools for materials science. I make these tools available under open source licenses on <a href='https://github.com/keeeto/'>my GitHub page.</a>
 
 	
 	<h3>SMACT</h3>
