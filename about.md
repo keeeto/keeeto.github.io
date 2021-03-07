@@ -6,7 +6,7 @@ title: About Me
 <div class="post">
 	<h1 class="pageTitle">About Me</h1>
 
-	<p class="intro">I am a senior scientist leading in the SciML team based at Rutherford Appleton Laboratory. SciML is a team in the Scientific Computing Division and we work with the large STFC facilities (Diamond, ISIS Neutron and Muon Source and Central Laser Facility for example) to use machine learning to push the boundaries of fundamental science.</p>
+	<p class="intro">I am a senior scientist in the SciML team based at Rutherford Appleton Laboratory. SciML is a team in the Scientific Computing Division and we work with the large STFC facilities (Diamond, ISIS Neutron and Muon Source and Central Laser Facility for example) to use machine learning to push the boundaries of fundamental science.</p>
 	
 	<p class="intro">My interests lie in developing machine learning approaches for materials science. I have experience leading projects to apply deep neural networks as well as classical machine learning (eg support vector machines) as well as atomistic simulation (eg DFT) to projects in materials characterisation and design. I have more than 10 years experience collaborating with experimental researchers to use computational tools for accelerated and advanced analysis of results.
 	</p>
@@ -20,7 +20,8 @@ title: About Me
   
 <h3>Machine Learning for Inelastic Neutron Scattering</h3>
 
-We are developing interpretable, calibrated machine learning techniques for the analysis of inelastic neutron scattering data. This work is in collaboration with ISIS neutron and muon source. This work was recently highlighted by the British Computing Society [here](https://www.bcs.org/content-hub/ai-the-next-big-thing-for-accelerating-materials-science-experiments/?utm_campaign=BCS%20Articles&utm_content=153369529&utm_medium=social&utm_source=linkedin&hss_channel=lcp-25323)
+We are developing interpretable, calibrated machine learning techniques for the analysis of inelastic neutron scattering data. This work is in collaboration with ISIS neutron and muon source. This work was recently highlighted by the British Computing Society
+<a href="https://www.bcs.org/content-hub/ai-the-next-big-thing-for-accelerating-materials-science-experiments/?utm_campaign=BCS%20Articles&utm_content=153369529&utm_medium=social&utm_source=linkedin&hss_channel=lcp-25323">here </a>
 
 Also see my AI3SD webinar presentation
 <a href="https://www.ai3sd.org/2020/12/16/16-12-2020-ai3sd-winter-seminar-series-enhancing-experiments-through-machine-learning/">here </a>
@@ -55,7 +56,7 @@ In collaboration with Aron Walsh at Imperial College London and Ricardo Crespo a
 
    <h3>Superres-tomo </h3>
    
-   	<img align="right" hspace="20" src="{{ 'https://superres-tomo.readthedocs.io/en/latest/_images/cnn-reconstruct.png' | prepend: site.baseurl }}" alt="" width="200"> 
+   	<img align="right" hspace="20" src="{{ 'https://superres-tomo.readthedocs.io/en/latest/_images/cnn-reconstruct.png' | prepend: site.baseurl }}" alt="" width="600"> 
    	
    	<a href="https://superres-tomo.readthedocs.io/en/latest/about.html">superres-tomo</a> is a package of useful scripts and models for applying neural networks for tomographic reconstruction of X-ray images. The package also includes models and scripts useful for the analysis of the images generated, allowing tasks such as semantic segmentation of very large images and removing noise from low dose images.
    
